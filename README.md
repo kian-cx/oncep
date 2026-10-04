@@ -1,16 +1,30 @@
 # oncep
 
+<p align="center">
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
+<a href="https://github.com/kian-cx/oncep/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/kian-cx/oncep/releases"><img src="https://img.shields.io/github/release/kian-cx/oncep"></a>
+<a href="https://x.com/mexsicio"><img src="https://img.shields.io/badge/follow-%40mexsicio-000?style=flat&logo=x&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#running-oncep">Running oncep</a> •
+  <a href="#output">Output</a> •
+  <a href="#confidence">Confidence</a>
+</p>
+
 TCP port scanner written in Rust. It opens a normal TCP connection, so it does not need root and it does not link to libpcap. Every port comes back with a confidence, and the scan tells you how long is left.
-
-![oncep scanning scanme.nmap.org, with the banner, open ports, and the summary](static/scan.png)
-
-[![License: MIT](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
-
-[Features](#features) · [Installation](#installation) · [Usage](#usage) · [Running oncep](#running-oncep) · [Output](#output) · [Confidence](#confidence)
 
 oncep is made by [Mex Strategic Intelligence Center, S.A. de C.V.](https://mexsic.io).
 
 ## Features
+
+<p align="center">
+  <img src="static/scan.png" alt="oncep scanning scanme.nmap.org" width="700">
+</p>
 
 - Connect scan on macOS and Linux. No raw sockets.
 - IPv4 and IPv6. A hostname is resolved once, and each address is scanned.
