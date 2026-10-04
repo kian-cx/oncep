@@ -8,7 +8,7 @@ TCP port scanner written in Rust. It opens a normal TCP connection, so it does n
 
 [Features](#features) · [Installation](#installation) · [Usage](#usage) · [Running oncep](#running-oncep) · [Output](#output) · [Confidence](#confidence)
 
-oncep is made by [Mexsic](https://mexsic.io).
+oncep is made by [Mex Strategic Intelligence Center, S.A. de C.V.](https://mexsic.io).
 
 ## Features
 

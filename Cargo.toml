@@ -3,7 +3,7 @@ name = "oncep"
 version = "0.1.0"
 edition = "2021"
 description = "TCP port scanner with per-port confidence and an ETA"
-authors = ["Mex Strategic Intelligence Center S.A de C.V. (mexsic)"]
+authors = ["Mex Strategic Intelligence Center, S.A. de C.V."]
 homepage = "https://mexsic.io"
 license = "MIT"
 

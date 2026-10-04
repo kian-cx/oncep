@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Mex Strategic Intelligence Center S.A de C.V. (mexsic)
+Copyright (c) 2026 Mex Strategic Intelligence Center, S.A. de C.V.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
