@@ -5,6 +5,7 @@ edition = "2021"
 description = "TCP port scanner with per-port confidence and an ETA"
 authors = ["Mexsic"]
 homepage = "https://mexsic.io"
+license = "MIT"
 
 [[bin]]
 name = "oncep"

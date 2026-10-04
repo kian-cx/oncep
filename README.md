@@ -4,6 +4,8 @@ TCP port scanner written in Rust. It opens a normal TCP connection, so it does n
 
 ![oncep scanning scanme.nmap.org, with the banner, open ports, and the summary](static/scan.png)
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)
+
 [Features](#features) · [Installation](#installation) · [Usage](#usage) · [Running oncep](#running-oncep) · [Output](#output) · [Confidence](#confidence)
 
 oncep is made by [Mexsic](https://mexsic.io).
@@ -230,3 +232,5 @@ The ETA uses the ports already finished, the ports left, and how long a reply or
 Scan hosts you are allowed to scan.
 
 oncep only completes TCP connections. It does not send SYN probes, UDP, or banner grabs, and it does not spoof its source address.
+
+Released under the [MIT license](LICENSE.md).
