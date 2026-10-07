@@ -2,8 +2,8 @@
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
-<a href="https://github.com/kian-cx/oncep/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/kian-cx/oncep/releases"><img src="https://img.shields.io/github/release/kian-cx/oncep"></a>
+<a href="https://github.com/mexsic/oncep/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/mexsic/oncep/releases"><img src="https://img.shields.io/github/release/mexsic/oncep"></a>
 <a href="https://x.com/mexsicio"><img src="https://img.shields.io/badge/follow-%40mexsicio-000?style=flat&logo=x&logoColor=white"></a>
 </p>
 
@@ -40,7 +40,7 @@ oncep is made by [Mex Strategic Intelligence Center, S.A. de C.V.](https://mexsi
 Rust 1.75 or newer. Install it from [rustup.rs](https://rustup.rs) if you do not have it.
 
 ```bash
-git clone https://github.com/kian-cx/oncep.git
+git clone https://github.com/mexsic/oncep.git
 cd oncep
 cargo build --release
 ./target/release/oncep --help
@@ -120,7 +120,7 @@ Options:
 
 ## Running oncep
 
-Scan a host. The default range is `1-1024`. This run asks for four ports on the host Nmap publishes for tool tests.
+Scan a host. The default range is `1-1024`. This run asks for four ports on a public host that allows scan tests.
 
 ```bash
 oncep -p 22,80,443,9929 --progress never scanme.nmap.org
